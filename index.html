@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF—8"/>
+<meta name="viewport" content="width=device—width, . 0"/>
+<meta http—equiv="X—UA—Compatib1e" content=" ie=edge"/>
+<title>Student Registration</title>
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <p>Registration</p>
+        </div>
+
+        <form action="#">
+            <div class="user_details">
+                <div class="input_box">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="input_box">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter your username">
+                </div>
+                <div class="input_box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input_box">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone" placeholder="Enter your number" required>
+                </div>
+            </div>
+            <div class="gender">
+                <span class="gender_title">Student of Amity?</span>
+                <input type="radio" name="gender" id="radio_1">
+                <input type="radio" name="gender" id="radio_2">
+
+                <div class="category">
+                    <label for="radio_1">
+                        <span class="dot one"></span>
+                        <span>YES</span>
+                    </label>
+                    <label for="radio_2">
+                        <span class="dot two"></span>
+                        <span>NO</span>
+                    </label>
+                </div>
+            </div>
+            <div class="reg_btn">
+                <input type="submit" value="Register Student">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
